@@ -83,3 +83,4 @@ Create a small aqua dental arch nested inside a circular coastal-sun form, paire
 - Desktop navigation remains bright and reassuring, never transparent over variable imagery.
 - Primary hero imagery uses a darkened directional treatment/lab scene so white typography always meets contrast requirements.
 - No invented ratings, testimonials, or patient stories are used. The page may retain the existing published “580+ 5-Star Google Reviews” practice-level claim as a trust signal, but does not create or display new review content.
+- The expert portrait is the official public Dr. Howard Abrahams image sourced from the practice’s website. Profile credentials are presented as concise, factual clinical details, rather than generalized marketing copy.

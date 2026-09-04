@@ -183,11 +183,15 @@ export default function Home() {
               <p className="eyebrow"><i /> The only prosthodontist in Miami Beach</p>
               <h2 id="expert-title">When your smile needs <em>specialised care.</em></h2>
               <p className="body-large">Dr. Howard Abrahams combines advanced prosthodontic training with a distinctly personal approach. Every recommendation begins with your comfort, your schedule, and your goals.</p>
+              <div className="doctor-profile">
+                <p><strong>Dr. Howard Abrahams, DMD</strong></p>
+                <p>University of Pennsylvania School of Dental Medicine · 3-year specialty program in Advanced Prosthodontics · Fellowship in Maxillofacial Prosthodontics &amp; Dental Oncology at Memorial Sloan Kettering Cancer Center.</p>
+              </div>
               <a href="#request" className="text-button">Meet with Dr Abrahams <ArrowDownRight aria-hidden="true" /></a>
             </div>
             <div className="expert-image-frame">
-              <img src="/manus-storage/dr-abrahams-consultation_b8d94055.jpg" alt="A dentist listening carefully during a consultation" />
-              <div className="image-note"><span>15+</span><p>years of clinical<br />experience</p></div>
+              <img src="/manus-storage/dr-howard-abrahams-official_12f849c4.webp" alt="Dr. Howard Abrahams, prosthodontist in Miami Beach" />
+              <div className="image-note"><span>DMD</span><p>advanced<br />prosthodontics</p></div>
             </div>
           </div>
           <div className="site-width credential-band">
