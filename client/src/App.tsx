@@ -1,3 +1,7 @@
+/**
+ * Coastal Clinical Editorial: the route wrapper preserves an airy, high-contrast
+ * clinical presentation while the page layer carries the aqua/coral visual language.
+ */
 import { Toaster } from "@/components/ui/sonner";
 import { TooltipProvider } from "@/components/ui/tooltip";
 import NotFound from "@/pages/NotFound";
