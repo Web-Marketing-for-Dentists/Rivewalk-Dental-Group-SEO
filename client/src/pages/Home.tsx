@@ -14,10 +14,12 @@ import {
   Phone,
   ShieldCheck,
   Sparkles,
+  Star,
   X,
 } from "lucide-react";
 
 const phone = "(305) 203-1007";
+const googleReviewsUrl = "https://www.google.com/maps/place/Dental+Implants+Miami+Beach/@25.8128408,-80.1375889,17z/data=!3m1!4b1!4m7!3m6!1s0x0:0x712d8eb8b5ef5b8d!8m2!3d25.8128408!4d-80.1354002!9m1!1b1";
 
 const treatmentList = [
   "Natural-looking dentures",
@@ -33,6 +35,21 @@ const steps = [
   ["02", "Meet Dr Abrahams", "Your consultation is clear, unrushed, and focused on the options that fit your needs."],
   ["03", "See the lab advantage", "When appropriate, our on-site lab helps us move from plan to repair in the same day."],
   ["04", "Leave with direction", "You will understand the next step, the timing, and how to care for your renewed smile."],
+];
+
+const publishedReviews = [
+  {
+    name: "Oksana Rykova",
+    quote: "Dr. Howard Abrahams is truly outstanding. He is confident, incredibly knowledgeable, and executes his work with such efficiency and precision. You immediately feel you’re in expert hands.",
+  },
+  {
+    name: "Sarah Dolson",
+    quote: "I deal with dental anxiety, but he and his team are incredibly kind and calming. They make the whole experience feel comfortable and stress-free.",
+  },
+  {
+    name: "luzer weiss",
+    quote: "Dr Abrahams is very professional. He spent a lot of time explaining my concerns and helped me understand the best treatment for the best results.",
+  },
 ];
 
 function Logo() {
@@ -166,6 +183,7 @@ export default function Home() {
               </div>
             </div>
             <aside className="offer-card" aria-label="Complimentary consultation offer">
+              <span className="appointment-tab">Complimentary consult</span>
               <p className="offer-card__overline">The first step is simple</p>
               <div className="offer-card__heading"><span>Free</span><strong>Consult</strong></div>
               <p>Meet Dr Abrahams, understand your options, and find the right path forward.</p>
@@ -196,7 +214,7 @@ export default function Home() {
           </div>
           <div className="site-width credential-band">
             <div><span className="credential-icon"><Clock3 /></span><p><strong>On-site lab</strong><br />for same-day delivery</p></div>
-            <div><span className="credential-number">580+</span><p><strong>5-Star Google Reviews</strong><br />from our community</p></div>
+            <a className="credential-link" href={googleReviewsUrl} target="_blank" rel="noreferrer"><span className="credential-number">580+</span><p><strong>5-Star Google Reviews</strong><br />from our community</p><ArrowUpRight aria-hidden="true" /></a>
             <div><span className="credential-icon"><Sparkles /></span><p><strong>Unmatched care</strong><br />and clear guidance</p></div>
           </div>
         </section>
@@ -206,7 +224,7 @@ export default function Home() {
             <div className="care-image-stack">
               <div className="care-image care-image--main"><img src="/manus-storage/dr-abrahams-lab-craft_46fd0b60.jpg" alt="Detailed work on a custom denture in the on-site lab" /></div>
               <div className="care-image care-image--small"><img src="/manus-storage/dr-abrahams-restorative-smile_02663fcd.jpg" alt="A patient relaxed and confident after restorative care" /></div>
-              <span className="stamp">Built around<br />your life</span>
+              <span className="stamp">Same-day<br />lab care</span>
             </div>
             <div className="care-copy section-pad">
               <p className="eyebrow"><i /> Dentures, without the delay</p>
@@ -233,12 +251,33 @@ export default function Home() {
           </div>
         </section>
 
+        <section className="reviews-section section-pad" aria-labelledby="reviews-title">
+          <div className="site-width reviews-heading">
+            <div className="section-label"><span>03</span><p>Words from<br />our patients</p></div>
+            <div>
+              <p className="eyebrow"><i /> Verified published feedback</p>
+              <h2 id="reviews-title">Miami Beach care, <em>in their words.</em></h2>
+              <p>Selected excerpts from published Google Reviews for Dr Abrahams’ prosthodontic practice.</p>
+            </div>
+            <a className="reviews-link" href={googleReviewsUrl} target="_blank" rel="noreferrer"><span><strong>580+</strong><small>5-star Google reviews</small></span><ArrowUpRight aria-hidden="true" /></a>
+          </div>
+          <div className="site-width reviews-grid">
+            {publishedReviews.map((review, index) => (
+              <article className={`review-card review-card--${index + 1}`} key={review.name}>
+                <div className="review-stars" aria-label="Five-star Google review">{Array.from({ length: 5 }).map((_, starIndex) => <Star key={starIndex} aria-hidden="true" />)}</div>
+                <blockquote>“{review.quote}”</blockquote>
+                <footer><span>{review.name}</span><a href={googleReviewsUrl} target="_blank" rel="noreferrer">Google Review <ArrowUpRight aria-hidden="true" /></a></footer>
+              </article>
+            ))}
+          </div>
+        </section>
+
         <section id="request" className="request-section" aria-labelledby="request-title">
           <div className="request-image" role="img" aria-label="A denture being evaluated in a clinical laboratory" />
           <div className="request-overlay" />
           <div className="site-width request-layout">
             <div className="request-copy"><p className="eyebrow eyebrow--light"><i /> Request a consultation</p><h2 id="request-title">Get the right guidance for what comes <em>next.</em></h2><p>Tell us a little about what brought you here. Our office will be in touch to arrange your complimentary consultation.</p><div className="request-contact"><a href="tel:3052031007"><Phone /> {phone}</a><a href="https://maps.app.goo.gl/Z155xb63Bjcu8C3c6" target="_blank" rel="noreferrer">960 Arthur Godfrey Rd #400<br />Miami Beach, FL 33140 <ArrowUpRight /></a></div></div>
-            <div className="request-form-wrap"><p className="form-kicker">Your appointment request</p><ConsultationForm /></div>
+            <div className="request-form-wrap"><span className="appointment-tab appointment-tab--form">Complimentary consult</span><p className="form-kicker">Your appointment request</p><ConsultationForm /></div>
           </div>
         </section>
       </main>

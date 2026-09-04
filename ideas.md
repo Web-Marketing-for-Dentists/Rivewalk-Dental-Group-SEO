@@ -84,3 +84,5 @@ Create a small aqua dental arch nested inside a circular coastal-sun form, paire
 - Primary hero imagery uses a darkened directional treatment/lab scene so white typography always meets contrast requirements.
 - No invented ratings, testimonials, or patient stories are used. The page may retain the existing published “580+ 5-Star Google Reviews” practice-level claim as a trust signal, but does not create or display new review content.
 - The expert portrait is the official public Dr. Howard Abrahams image sourced from the practice’s website. Profile credentials are presented as concise, factual clinical details, rather than generalized marketing copy.
+- Because the user specifically requested a Google Reviews testimonial section, it features only selected, verbatim excerpts from the practice’s already published review content, with author names and direct Google attribution. The testimonials are treated as a restrained editorial proof area rather than generic review marketing cards.
+- Coral is reserved for the recognisable complimentary-consultation tab and conversion actions. Major clinical proof, imagery, and navigation accents use the Abrahams Aqua system.
