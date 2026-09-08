@@ -175,20 +175,14 @@ export default function Home() {
               <p className="hero-intro">Personal denture repair and same-day restorative care from Miami Beach’s dedicated prosthodontist.</p>
               <div className="hero-actions">
                 <a className="button button--coral" href="#request">Book a free consult <ArrowUpRight aria-hidden="true" /></a>
-                <a className="text-button text-button--light" href="#care">Explore denture care <ArrowDownRight aria-hidden="true" /></a>
+                <a className="button button--hero-ghost" href="tel:3052031007"><Phone aria-hidden="true" /> Call now</a>
               </div>
               <div className="hero-proof">
                 <span><CalendarDays /> Scheduling this week</span>
                 <span><ShieldCheck /> Most insurances accepted</span>
               </div>
+              <div className="hero-lab-note"><span>On-site dental lab</span><a href="#care">See same-day denture options <ArrowDownRight aria-hidden="true" /></a></div>
             </div>
-            <aside className="offer-card" aria-label="Complimentary consultation offer">
-              <span className="appointment-tab">Complimentary consult</span>
-              <p className="offer-card__overline">The first step is simple</p>
-              <div className="offer-card__heading"><span>Free</span><strong>Consult</strong></div>
-              <p>Meet Dr Abrahams, understand your options, and find the right path forward.</p>
-              <a href="#request" className="offer-card__link">Request an appointment <ArrowDownRight /></a>
-            </aside>
           </div>
           <div className="hero-footer site-width"><span>Same-day service when clinically appropriate</span><ChevronDown aria-hidden="true" /></div>
         </section>
@@ -233,6 +227,7 @@ export default function Home() {
               <div className="care-list">
                 {treatmentList.map((treatment, index) => <div key={treatment}><span>0{index + 1}</span><p>{treatment}</p><ArrowUpRight /></div>)}
               </div>
+              <div className="care-cta"><a className="button" href="#request">Request a denture repair consult <ArrowUpRight aria-hidden="true" /></a><a href="tel:3052031007" className="care-call"><Phone aria-hidden="true" /> Prefer to speak now? Call us</a></div>
             </div>
           </div>
         </section>
@@ -249,6 +244,7 @@ export default function Home() {
           <div className="site-width process-list">
             {steps.map(([number, title, copy]) => <article key={number} className="process-item"><span>{number}</span><h3>{title}</h3><p>{copy}</p><ArrowDownRight aria-hidden="true" /></article>)}
           </div>
+          <div className="site-width process-cta"><p>Start with a complimentary consultation. We will help you understand what is possible and what can happen next.</p><a className="button button--coral" href="#request">Request your consultation <ArrowUpRight aria-hidden="true" /></a></div>
         </section>
 
         <section className="reviews-section section-pad" aria-labelledby="reviews-title">
@@ -270,6 +266,7 @@ export default function Home() {
               </article>
             ))}
           </div>
+          <div className="site-width reviews-cta"><p>Ready for a more considered approach to denture care?</p><a href="#request" className="text-button">Book a complimentary consultation <ArrowDownRight aria-hidden="true" /></a></div>
         </section>
 
         <section id="request" className="request-section" aria-labelledby="request-title">

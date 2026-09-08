@@ -15,3 +15,9 @@
 
 - [x] Add a smooth hover treatment to the published Google Review cards.
 - [x] Verify the motion remains restrained and respects reduced-motion preferences.
+
+# Conversion flow refinement
+
+- [x] Remove the white Free Consult card from the hero composition.
+- [x] Add clear, context-specific appointment calls to action throughout the page.
+- [x] Verify the revised page across desktop and mobile and save a checkpoint.
