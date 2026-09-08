@@ -175,14 +175,27 @@ h2 { margin-bottom: 26px; font-size: clamp(44px, 4.35vw, 68px); line-height: .95
 .reviews-link:hover { color: var(--aqua-dark); border-color: var(--aqua-dark); }
 .reviews-link span { display: flex; flex-direction: column; }.reviews-link strong { font-family: var(--font-display); font-size: 40px; line-height: .8; font-weight: 600; }.reviews-link small { margin-top: 9px; color: #506c6e; font-size: 8px; font-weight: 700; text-transform: uppercase; letter-spacing: .09em; white-space: nowrap; }.reviews-link svg { width: 16px; margin-bottom: 1px; color: var(--aqua-dark); }
 .reviews-grid { position: relative; z-index: 1; display: grid; grid-template-columns: 1.2fr .8fr; gap: 0 50px; margin-top: 66px; border-top: 1px solid var(--line); }
-.review-card { min-height: 203px; display: flex; flex-direction: column; padding: 26px 0; background: transparent; border-bottom: 1px solid var(--line); transition: transform .22s cubic-bezier(.23,1,.32,1), padding .22s cubic-bezier(.23,1,.32,1); }
-.review-card:hover { transform: translateX(7px); }
+.review-card { position: relative; min-height: 203px; display: flex; flex-direction: column; padding: 26px 0; background: transparent; border-bottom: 1px solid var(--line); isolation: isolate; transition: transform .38s cubic-bezier(.23,1,.32,1), background-color .38s ease; }
+.review-card::before { position: absolute; z-index: -1; inset: 0 -12px; content: ""; background: rgba(89,201,205,.18); opacity: 0; transform: scaleX(.92); transform-origin: left center; transition: opacity .32s ease, transform .42s cubic-bezier(.23,1,.32,1); }
+.review-card blockquote, .review-card footer, .review-stars { transition: transform .38s cubic-bezier(.23,1,.32,1), opacity .28s ease; }
 .review-card--1 { grid-row: span 2; min-height: 406px; padding: 33px 38px; margin-top: 25px; margin-bottom: 25px; background: var(--ink); border-bottom: 0; color: white; box-shadow: 13px 14px 0 rgba(89,201,205,.31); }
-.review-card--1:hover { transform: translateY(-4px); box-shadow: 13px 18px 0 rgba(89,201,205,.36); }
+.review-card--1::before { inset: 0; background: linear-gradient(135deg, rgba(89,201,205,.21), transparent 57%); transform: scale(1.02); transform-origin: right bottom; }
 .review-stars { display: flex; gap: 4px; color: #d7aa4e; }.review-stars svg { width: 12px; height: 12px; fill: currentColor; }
 .review-card blockquote { max-width: 420px; margin: 25px 0 auto; font-family: var(--font-display); font-size: clamp(22px, 2.05vw, 31px); font-weight: 600; line-height: 1.08; letter-spacing: -.025em; }
 .review-card:not(.review-card--1) blockquote { color: var(--ink); }
 .review-card footer { display: flex; justify-content: space-between; align-items: end; gap: 12px; margin-top: 26px; padding-top: 14px; border-top: 1px solid rgba(255,255,255,.2); }.review-card:not(.review-card--1) footer { border-color: transparent; }.review-card footer > span { color: var(--aqua); font-size: 10px; font-weight: 700; letter-spacing: .08em; text-transform: uppercase; }.review-card:not(.review-card--1) footer > span { color: var(--aqua-dark); }.review-card footer a { display: inline-flex; align-items: center; gap: 5px; color: rgba(255,255,255,.69); font-size: 9px; white-space: nowrap; }.review-card:not(.review-card--1) footer a { color: #5a7475; }.review-card footer a:hover { color: var(--aqua-dark); }.review-card footer svg { width: 11px; }
+@media (hover: hover) and (pointer: fine) {
+  .review-card:not(.review-card--1):hover { transform: translateX(11px); }
+  .review-card:not(.review-card--1):hover::before { opacity: 1; transform: scaleX(1); }
+  .review-card:not(.review-card--1):hover .review-stars { transform: translateX(4px) scale(1.06); }
+  .review-card:not(.review-card--1):hover blockquote { transform: translateX(7px); }
+  .review-card:not(.review-card--1):hover footer { transform: translateX(7px); }
+  .review-card--1:hover { transform: translateY(-7px); box-shadow: 13px 22px 0 rgba(89,201,205,.40); }
+  .review-card--1:hover::before { opacity: 1; transform: scale(1); }
+  .review-card--1:hover .review-stars { transform: translateY(-3px) scale(1.07); }
+  .review-card--1:hover blockquote { transform: translateY(-4px); }
+  .review-card--1:hover footer { transform: translateY(-2px); }
+}
 .request-section { position: relative; color: white; min-height: 715px; display: flex; align-items: center; isolation: isolate; }
 .request-image { z-index: -2; background-position: 50% 62%; }
 .request-overlay { position: absolute; inset: 0; z-index: -1; background: linear-gradient(90deg, rgba(4,33,38,.94), rgba(4,33,38,.74) 57%, rgba(4,33,38,.46)); }
