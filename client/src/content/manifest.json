@@ -1,0 +1,408 @@
+[
+  {
+    "path": "/",
+    "title": "South Florida Dentist | Riverwalk Dental Group",
+    "bodyClass": "bg-white text-base-900 font-body antialiased selection:bg-brand-primary/20 selection:text-brand-primary overflow-x-hidden",
+    "file": "home.html",
+    "headFile": "page-00.json"
+  },
+  {
+    "path": "/about-us/",
+    "title": "About Riverwalk Dental Group | South Florida Dentist",
+    "bodyClass": "bg-white text-base-900 font-body antialiased selection:bg-brand-primary/20 selection:text-brand-primary overflow-x-hidden",
+    "file": "about-us/index.html",
+    "headFile": "page-01.json"
+  },
+  {
+    "path": "/about-us/our-team/",
+    "title": "Dental Team South Florida | Riverwalk Dental Group",
+    "bodyClass": "bg-white text-base-900 font-body antialiased selection:bg-brand-primary/20 selection:text-brand-primary overflow-x-hidden",
+    "file": "about-us/our-team/index.html",
+    "headFile": "page-02.json"
+  },
+  {
+    "path": "/about-us/our-team/dr-alameri/",
+    "title": "Dr. Alameri, General Dentist & Oral Surgeon | Riverwalk",
+    "bodyClass": "bg-white text-base-900 font-body antialiased selection:bg-brand-primary/20 selection:text-brand-primary overflow-x-hidden",
+    "file": "about-us/our-team/dr-alameri/index.html",
+    "headFile": "page-03.json"
+  },
+  {
+    "path": "/about-us/our-team/dr-ariana-romero-guerra/",
+    "title": "Dr. Ariana Romero Guerra Dentist | Riverwalk Dental Group",
+    "bodyClass": "bg-white text-base-900 font-body antialiased selection:bg-brand-primary/20 selection:text-brand-primary overflow-x-hidden",
+    "file": "about-us/our-team/dr-ariana-romero-guerra/index.html",
+    "headFile": "page-04.json"
+  },
+  {
+    "path": "/about-us/our-team/dr-israel/",
+    "title": "Dr. Israel – General Dentist | Riverwalk Dental Group",
+    "bodyClass": "bg-white text-base-900 font-body antialiased selection:bg-brand-primary/20 selection:text-brand-primary overflow-x-hidden",
+    "file": "about-us/our-team/dr-israel/index.html",
+    "headFile": "page-05.json"
+  },
+  {
+    "path": "/about-us/our-team/dr-laya-gholami/",
+    "title": "Dr. Laya Gholami Periodontist | Riverwalk Dental Group",
+    "bodyClass": "bg-white text-base-900 font-body antialiased selection:bg-brand-primary/20 selection:text-brand-primary overflow-x-hidden",
+    "file": "about-us/our-team/dr-laya-gholami/index.html",
+    "headFile": "page-06.json"
+  },
+  {
+    "path": "/about-us/our-team/dr-payal-chokshi/",
+    "title": "Dr. Payal Chokshi, Dentist | Riverwalk Dental Group",
+    "bodyClass": "bg-white text-base-900 font-body antialiased selection:bg-brand-primary/20 selection:text-brand-primary overflow-x-hidden",
+    "file": "about-us/our-team/dr-payal-chokshi/index.html",
+    "headFile": "page-07.json"
+  },
+  {
+    "path": "/blog/",
+    "title": "Dental Health Tips South Florida | Riverwalk Dental Group",
+    "bodyClass": "bg-white text-base-900 font-body antialiased selection:bg-brand-primary/20 selection:text-brand-primary overflow-x-hidden",
+    "file": "blog/index.html",
+    "headFile": "page-08.json"
+  },
+  {
+    "path": "/blog/how-can-i-reduce-my-costs-for-dental-care/",
+    "title": "How to Reduce Dental Care Costs | Riverwalk Dental Group",
+    "bodyClass": "bg-white text-base-900 font-body antialiased selection:bg-brand-primary/20 selection:text-brand-primary overflow-x-hidden",
+    "file": "blog/how-can-i-reduce-my-costs-for-dental-care/index.html",
+    "headFile": "page-09.json"
+  },
+  {
+    "path": "/blog/how-long-do-dental-crowns-last/",
+    "title": "How Long Do Dental Crowns Last? | Riverwalk Dental Group",
+    "bodyClass": "bg-white text-base-900 font-body antialiased selection:bg-brand-primary/20 selection:text-brand-primary overflow-x-hidden",
+    "file": "blog/how-long-do-dental-crowns-last/index.html",
+    "headFile": "page-10.json"
+  },
+  {
+    "path": "/blog/how-long-do-veneers-last/",
+    "title": "How Long Do Veneers Last? | Riverwalk Dental Group",
+    "bodyClass": "bg-white text-base-900 font-body antialiased selection:bg-brand-primary/20 selection:text-brand-primary overflow-x-hidden",
+    "file": "blog/how-long-do-veneers-last/index.html",
+    "headFile": "page-11.json"
+  },
+  {
+    "path": "/blog/how-often-do-dental-implants-need-to-be-replaced/",
+    "title": "How Often Do Dental Implants Need Replacing? | Riverwalk Dental",
+    "bodyClass": "bg-white text-base-900 font-body antialiased selection:bg-brand-primary/20 selection:text-brand-primary overflow-x-hidden",
+    "file": "blog/how-often-do-dental-implants-need-to-be-replaced/index.html",
+    "headFile": "page-12.json"
+  },
+  {
+    "path": "/blog/how-soon-can-i-work-after-getting-a-root-canal/",
+    "title": "How Soon Can I Work After a Root Canal? | Riverwalk Dental",
+    "bodyClass": "bg-white text-base-900 font-body antialiased selection:bg-brand-primary/20 selection:text-brand-primary overflow-x-hidden",
+    "file": "blog/how-soon-can-i-work-after-getting-a-root-canal/index.html",
+    "headFile": "page-13.json"
+  },
+  {
+    "path": "/blog/is-invisalign-better-than-braces/",
+    "title": "Is Invisalign Better Than Braces? | Riverwalk Dental Group",
+    "bodyClass": "bg-white text-base-900 font-body antialiased selection:bg-brand-primary/20 selection:text-brand-primary overflow-x-hidden",
+    "file": "blog/is-invisalign-better-than-braces/index.html",
+    "headFile": "page-14.json"
+  },
+  {
+    "path": "/blog/what-are-common-dental-emergencies/",
+    "title": "What Are Common Dental Emergencies? | Riverwalk Dental",
+    "bodyClass": "bg-white text-base-900 font-body antialiased selection:bg-brand-primary/20 selection:text-brand-primary overflow-x-hidden",
+    "file": "blog/what-are-common-dental-emergencies/index.html",
+    "headFile": "page-15.json"
+  },
+  {
+    "path": "/contact-us/",
+    "title": "Contact Riverwalk Dental Group | South Florida Dentist",
+    "bodyClass": "bg-white text-base-900 font-body antialiased selection:bg-brand-primary/20 selection:text-brand-primary overflow-x-hidden",
+    "file": "contact-us/index.html",
+    "headFile": "page-16.json"
+  },
+  {
+    "path": "/locations/",
+    "title": "Riverwalk Dental Group Locations | Port St. Lucie, Saint Lucie West, Stuart & Jupiter",
+    "bodyClass": "bg-white text-base-900 font-body antialiased selection:bg-brand-primary/20 selection:text-brand-primary overflow-x-hidden",
+    "file": "locations/index.html",
+    "headFile": "page-17.json"
+  },
+  {
+    "path": "/locations/jupiter/",
+    "title": "Dentist in Jupiter FL | Riverwalk Dental Group",
+    "bodyClass": "bg-white text-base-900 font-body antialiased selection:bg-brand-primary/20 selection:text-brand-primary overflow-x-hidden",
+    "file": "locations/jupiter/index.html",
+    "headFile": "page-18.json"
+  },
+  {
+    "path": "/locations/port-st-lucie/",
+    "title": "Dentist in Port St. Lucie, FL | Riverwalk Dental Group",
+    "bodyClass": "bg-white text-base-900 font-body antialiased selection:bg-brand-primary/20 selection:text-brand-primary overflow-x-hidden",
+    "file": "locations/port-st-lucie/index.html",
+    "headFile": "page-19.json"
+  },
+  {
+    "path": "/locations/saint-lucie-west/",
+    "title": "Dentist in Saint Lucie West | Riverwalk Dental Group",
+    "bodyClass": "bg-white text-base-900 font-body antialiased selection:bg-brand-primary/20 selection:text-brand-primary overflow-x-hidden",
+    "file": "locations/saint-lucie-west/index.html",
+    "headFile": "page-20.json"
+  },
+  {
+    "path": "/locations/stuart/",
+    "title": "Dentist in Stuart FL | Riverwalk Dental Group",
+    "bodyClass": "bg-white text-base-900 font-body antialiased selection:bg-brand-primary/20 selection:text-brand-primary overflow-x-hidden",
+    "file": "locations/stuart/index.html",
+    "headFile": "page-21.json"
+  },
+  {
+    "path": "/patient-information/",
+    "title": "Patient Information Dental Office | Riverwalk Dental",
+    "bodyClass": "bg-white text-base-900 font-body antialiased selection:bg-brand-primary/20 selection:text-brand-primary overflow-x-hidden",
+    "file": "patient-information/index.html",
+    "headFile": "page-22.json"
+  },
+  {
+    "path": "/patient-information/insurance-financing/",
+    "title": "Dental Insurance South Florida | Riverwalk Dental Group",
+    "bodyClass": "bg-white text-base-900 font-body antialiased selection:bg-brand-primary/20 selection:text-brand-primary overflow-x-hidden",
+    "file": "patient-information/insurance-financing/index.html",
+    "headFile": "page-23.json"
+  },
+  {
+    "path": "/patient-information/testimonials/",
+    "title": "Riverwalk Dental Group Reviews | Patient Testimonials",
+    "bodyClass": "bg-white text-base-900 font-body antialiased selection:bg-brand-primary/20 selection:text-brand-primary overflow-x-hidden",
+    "file": "patient-information/testimonials/index.html",
+    "headFile": "page-24.json"
+  },
+  {
+    "path": "/services/",
+    "title": "Dental Services South Florida | Riverwalk Dental Group",
+    "bodyClass": "bg-white text-base-900 font-body antialiased selection:bg-brand-primary/20 selection:text-brand-primary overflow-x-hidden",
+    "file": "services/index.html",
+    "headFile": "page-25.json"
+  },
+  {
+    "path": "/services/cosmetic-dentistry/",
+    "title": "Cosmetic Dentistry South Florida | Riverwalk Dental",
+    "bodyClass": "bg-white text-base-900 font-body antialiased selection:bg-brand-primary/20 selection:text-brand-primary overflow-x-hidden",
+    "file": "services/cosmetic-dentistry/index.html",
+    "headFile": "page-26.json"
+  },
+  {
+    "path": "/services/cosmetic-dentistry/invisalign/",
+    "title": "Invisalign South Florida | Riverwalk Dental Group",
+    "bodyClass": "bg-white text-base-900 font-body antialiased selection:bg-brand-primary/20 selection:text-brand-primary overflow-x-hidden",
+    "file": "services/cosmetic-dentistry/invisalign/index.html",
+    "headFile": "page-27.json"
+  },
+  {
+    "path": "/services/cosmetic-dentistry/teeth-whitening/",
+    "title": "Teeth Whitening South Florida | Riverwalk Dental Group",
+    "bodyClass": "bg-white text-base-900 font-body antialiased selection:bg-brand-primary/20 selection:text-brand-primary overflow-x-hidden",
+    "file": "services/cosmetic-dentistry/teeth-whitening/index.html",
+    "headFile": "page-28.json"
+  },
+  {
+    "path": "/services/cosmetic-dentistry/veneers/",
+    "title": "Porcelain Veneers & Smile Makeovers | Riverwalk Dental",
+    "bodyClass": "bg-white text-base-900 font-body antialiased selection:bg-brand-primary/20 selection:text-brand-primary overflow-x-hidden",
+    "file": "services/cosmetic-dentistry/veneers/index.html",
+    "headFile": "page-29.json"
+  },
+  {
+    "path": "/services/implant-dentistry/",
+    "title": "Dental Implants South Florida | Riverwalk Dental Group",
+    "bodyClass": "bg-white text-base-900 font-body antialiased selection:bg-brand-primary/20 selection:text-brand-primary overflow-x-hidden",
+    "file": "services/implant-dentistry/index.html",
+    "headFile": "page-30.json"
+  },
+  {
+    "path": "/services/implant-dentistry/all-on-4/",
+    "title": "All-on-4 Dental Implants South Florida | Riverwalk Dental",
+    "bodyClass": "bg-white text-base-900 font-body antialiased selection:bg-brand-primary/20 selection:text-brand-primary overflow-x-hidden",
+    "file": "services/implant-dentistry/all-on-4/index.html",
+    "headFile": "page-31.json"
+  },
+  {
+    "path": "/services/implant-dentistry/bone-grafting/",
+    "title": "Dental Bone Graft South Florida | Riverwalk Dental",
+    "bodyClass": "bg-white text-base-900 font-body antialiased selection:bg-brand-primary/20 selection:text-brand-primary overflow-x-hidden",
+    "file": "services/implant-dentistry/bone-grafting/index.html",
+    "headFile": "page-32.json"
+  },
+  {
+    "path": "/services/implant-dentistry/dental-implants/",
+    "title": "Single Tooth Implant South Florida | Riverwalk Dental",
+    "bodyClass": "bg-white text-base-900 font-body antialiased selection:bg-brand-primary/20 selection:text-brand-primary overflow-x-hidden",
+    "file": "services/implant-dentistry/dental-implants/index.html",
+    "headFile": "page-33.json"
+  },
+  {
+    "path": "/services/implant-dentistry/gum-grafting/",
+    "title": "Gum Grafting Port St. Lucie, FL | Riverwalk Dental",
+    "bodyClass": "bg-white text-base-900 font-body antialiased selection:bg-brand-primary/20 selection:text-brand-primary overflow-x-hidden",
+    "file": "services/implant-dentistry/gum-grafting/index.html",
+    "headFile": "page-34.json"
+  },
+  {
+    "path": "/services/implant-dentistry/implant-supported-dentures/",
+    "title": "Implant-Supported Dentures Port St. Lucie | Riverwalk",
+    "bodyClass": "bg-white text-base-900 font-body antialiased selection:bg-brand-primary/20 selection:text-brand-primary overflow-x-hidden",
+    "file": "services/implant-dentistry/implant-supported-dentures/index.html",
+    "headFile": "page-35.json"
+  },
+  {
+    "path": "/services/implant-dentistry/implant-teeth-in-a-day/",
+    "title": "Teeth in a Day Implants Port St. Lucie | Riverwalk Dental",
+    "bodyClass": "bg-white text-base-900 font-body antialiased selection:bg-brand-primary/20 selection:text-brand-primary overflow-x-hidden",
+    "file": "services/implant-dentistry/implant-teeth-in-a-day/index.html",
+    "headFile": "page-36.json"
+  },
+  {
+    "path": "/services/implant-dentistry/ridge-augmentation/",
+    "title": "Ridge Augmentation Port St. Lucie | Riverwalk Dental",
+    "bodyClass": "bg-white text-base-900 font-body antialiased selection:bg-brand-primary/20 selection:text-brand-primary overflow-x-hidden",
+    "file": "services/implant-dentistry/ridge-augmentation/index.html",
+    "headFile": "page-37.json"
+  },
+  {
+    "path": "/services/implant-dentistry/sedation-dentistry/",
+    "title": "Sedation Dentistry across Port St. Lucie, Saint Lucie West, Stuart, and Jupiter | Riverwalk Dental Group",
+    "bodyClass": "bg-white text-base-900 font-body antialiased selection:bg-brand-primary/20 selection:text-brand-primary overflow-x-hidden",
+    "file": "services/implant-dentistry/sedation-dentistry/index.html",
+    "headFile": "page-38.json"
+  },
+  {
+    "path": "/services/preventive-care/",
+    "title": "Preventive Dental Care South Florida | Riverwalk Dental",
+    "bodyClass": "bg-white text-base-900 font-body antialiased selection:bg-brand-primary/20 selection:text-brand-primary overflow-x-hidden",
+    "file": "services/preventive-care/index.html",
+    "headFile": "page-39.json"
+  },
+  {
+    "path": "/services/preventive-care/ct-scans/",
+    "title": "Dental CT Scan South Florida | Riverwalk Dental",
+    "bodyClass": "bg-white text-base-900 font-body antialiased selection:bg-brand-primary/20 selection:text-brand-primary overflow-x-hidden",
+    "file": "services/preventive-care/ct-scans/index.html",
+    "headFile": "page-40.json"
+  },
+  {
+    "path": "/services/preventive-care/dental-cleanings/",
+    "title": "Teeth Cleaning South Florida | Riverwalk Dental Group",
+    "bodyClass": "bg-white text-base-900 font-body antialiased selection:bg-brand-primary/20 selection:text-brand-primary overflow-x-hidden",
+    "file": "services/preventive-care/dental-cleanings/index.html",
+    "headFile": "page-41.json"
+  },
+  {
+    "path": "/services/restorative-dentistry/",
+    "title": "Restorative Dentistry South Florida | Riverwalk Dental",
+    "bodyClass": "bg-white text-base-900 font-body antialiased selection:bg-brand-primary/20 selection:text-brand-primary overflow-x-hidden",
+    "file": "services/restorative-dentistry/index.html",
+    "headFile": "page-42.json"
+  },
+  {
+    "path": "/services/restorative-dentistry/dental-bonding/",
+    "title": "Dental Bonding South Florida | Riverwalk Dental Group",
+    "bodyClass": "bg-white text-base-900 font-body antialiased selection:bg-brand-primary/20 selection:text-brand-primary overflow-x-hidden",
+    "file": "services/restorative-dentistry/dental-bonding/index.html",
+    "headFile": "page-43.json"
+  },
+  {
+    "path": "/services/restorative-dentistry/dental-bridges/",
+    "title": "Dental Bridges South Florida | Riverwalk Dental Group",
+    "bodyClass": "bg-white text-base-900 font-body antialiased selection:bg-brand-primary/20 selection:text-brand-primary overflow-x-hidden",
+    "file": "services/restorative-dentistry/dental-bridges/index.html",
+    "headFile": "page-44.json"
+  },
+  {
+    "path": "/services/restorative-dentistry/dental-crowns/",
+    "title": "Dental Crowns South Florida | Riverwalk Dental Group",
+    "bodyClass": "bg-white text-base-900 font-body antialiased selection:bg-brand-primary/20 selection:text-brand-primary overflow-x-hidden",
+    "file": "services/restorative-dentistry/dental-crowns/index.html",
+    "headFile": "page-45.json"
+  },
+  {
+    "path": "/services/restorative-dentistry/dental-restorations/",
+    "title": "Dental Restorations South Florida | Riverwalk Dental",
+    "bodyClass": "bg-white text-base-900 font-body antialiased selection:bg-brand-primary/20 selection:text-brand-primary overflow-x-hidden",
+    "file": "services/restorative-dentistry/dental-restorations/index.html",
+    "headFile": "page-46.json"
+  },
+  {
+    "path": "/services/restorative-dentistry/dentures-partials/",
+    "title": "Dentures & Partials across Port St. Lucie, Saint Lucie West, Stuart, and Jupiter | Riverwalk Dental",
+    "bodyClass": "bg-white text-base-900 font-body antialiased selection:bg-brand-primary/20 selection:text-brand-primary overflow-x-hidden",
+    "file": "services/restorative-dentistry/dentures-partials/index.html",
+    "headFile": "page-47.json"
+  },
+  {
+    "path": "/services/restorative-dentistry/tooth-extractions/",
+    "title": "Tooth Extraction South Florida | Riverwalk Dental",
+    "bodyClass": "bg-white text-base-900 font-body antialiased selection:bg-brand-primary/20 selection:text-brand-primary overflow-x-hidden",
+    "file": "services/restorative-dentistry/tooth-extractions/index.html",
+    "headFile": "page-48.json"
+  },
+  {
+    "path": "/services/restorative-dentistry/wisdom-tooth-extraction/",
+    "title": "Wisdom Tooth Extraction South Florida | Riverwalk Dental",
+    "bodyClass": "bg-white text-base-900 font-body antialiased selection:bg-brand-primary/20 selection:text-brand-primary overflow-x-hidden",
+    "file": "services/restorative-dentistry/wisdom-tooth-extraction/index.html",
+    "headFile": "page-49.json"
+  },
+  {
+    "path": "/services/specialty-care/",
+    "title": "Specialty Dental Care South Florida | Riverwalk Dental",
+    "bodyClass": "bg-white text-base-900 font-body antialiased selection:bg-brand-primary/20 selection:text-brand-primary overflow-x-hidden",
+    "file": "services/specialty-care/index.html",
+    "headFile": "page-50.json"
+  },
+  {
+    "path": "/services/specialty-care/dental-emergencies/",
+    "title": "Emergency South Florida Dentist | Riverwalk Dental Group",
+    "bodyClass": "bg-white text-base-900 font-body antialiased selection:bg-brand-primary/20 selection:text-brand-primary overflow-x-hidden",
+    "file": "services/specialty-care/dental-emergencies/index.html",
+    "headFile": "page-51.json"
+  },
+  {
+    "path": "/services/specialty-care/endodontics/",
+    "title": "Root Canal South Florida | Riverwalk Dental Group",
+    "bodyClass": "bg-white text-base-900 font-body antialiased selection:bg-brand-primary/20 selection:text-brand-primary overflow-x-hidden",
+    "file": "services/specialty-care/endodontics/index.html",
+    "headFile": "page-52.json"
+  },
+  {
+    "path": "/services/specialty-care/periodontics/",
+    "title": "Gum Disease Treatment South Florida | Riverwalk Dental",
+    "bodyClass": "bg-white text-base-900 font-body antialiased selection:bg-brand-primary/20 selection:text-brand-primary overflow-x-hidden",
+    "file": "services/specialty-care/periodontics/index.html",
+    "headFile": "page-53.json"
+  },
+  {
+    "path": "/technology/",
+    "title": "Dental Technology South Florida | Riverwalk Dental",
+    "bodyClass": "bg-white text-base-900 font-body antialiased selection:bg-brand-primary/20 selection:text-brand-primary overflow-x-hidden",
+    "file": "technology/index.html",
+    "headFile": "page-54.json"
+  },
+  {
+    "path": "/privacy-policy/",
+    "title": "Privacy Policy | Riverwalk Dental Group",
+    "bodyClass": "bg-white text-base-900 font-body antialiased selection:bg-brand-primary/20 selection:text-brand-primary overflow-x-hidden",
+    "file": "privacy-policy/index.html",
+    "headFile": "page-55.json"
+  },
+  {
+    "path": "/terms-of-use/",
+    "title": "Terms of Use | Riverwalk Dental Group",
+    "bodyClass": "bg-white text-base-900 font-body antialiased selection:bg-brand-primary/20 selection:text-brand-primary overflow-x-hidden",
+    "file": "terms-of-use/index.html",
+    "headFile": "page-56.json"
+  },
+  {
+    "path": "/accessibility-statement/",
+    "title": "Accessibility Statement | Riverwalk Dental Group",
+    "bodyClass": "bg-white text-base-900 font-body antialiased selection:bg-brand-primary/20 selection:text-brand-primary overflow-x-hidden",
+    "file": "accessibility-statement/index.html",
+    "headFile": "page-57.json"
+  }
+]

@@ -1,90 +1,20 @@
-# Dr Abrahams Denture Repair — Design Direction
+# Riverwalk Dental Group — faithful recreation
 
-## Source observations
+The current task replaces the previous Dr Abrahams landing page in this attached project with an editable copy of https://www.riverwalkdentalgroup.com/. The prior design remains recoverable through the project's previous checkpoint.
 
-The existing Dr Abrahams page uses a clean clinical white-and-aqua identity, a coral consultation offer, prominent trust markers, and direct conversion language. The retained content priorities are **Denture Repair**, **Miami Beach’s only prosthodontist**, **Free Consult**, **Scheduling This Week**, **Most Insurances Accepted**, same-day delivery through the on-site lab, quality craftsmanship, and the Miami Beach office contact details. The reference site suggests a more editorial consultation journey: a decisive hero, concise proof points, a transparent process, and a prominent low-friction consultation form.
+## Design direction
 
-## Three possible directions
+The live Riverwalk site is the design authority. Preserve its turquoise navigation, muted coastal-teal headings, white background, Varela Round display font, Noto Serif body font, square-edged buttons, spacing, original photography and autoplay office-tour video. No new visual direction or rewritten marketing content is introduced.
 
-### Theme Name: Coastal Clinical Editorial
-**Very Brief Intro:** A sunlit Miami interpretation of clinical confidence, using airy aqua, warm ivory, carefully cropped treatment imagery, and a restrained editorial rhythm. It feels modern and calm without abandoning the practice’s established visual cues.
-**Probability:** 0.06
+## Scope
 
-### Theme Name: Precision Atelier
-**Very Brief Intro:** A composed, craft-led presentation that frames the on-site dental laboratory as a place of exacting restorative work. Soft mineral surfaces, fine rules, and close-up material details lend it a bespoke sensibility.
-**Probability:** 0.03
+Copy all 58 unique public pages from the source sitemap and footer links, retaining their original paths. Copy the 70 original public media files into independent project-managed storage. Keep page markup directly editable under `client/src/content/`. The original compiled CSS is preserved under `client/src/styles/riverwalk.css`.
 
-### Theme Name: Contemporary Hospitality
-**Very Brief Intro:** A reassuring, service-forward experience built around hospitality and the relief of immediate care. The visual language is warm, accessible, and conversational while still clinically credible.
-**Probability:** 0.08
+## Intentional differences
 
-## Chosen approach: Coastal Clinical Editorial
-
-### Design Movement
-Contemporary **coastal editorial healthcare**: an elevated mix of Miami’s sun-washed restraint and clean clinical design. It adapts the reference site’s high-clarity consultation flow but remains distinctly Dr Abrahams through aqua, coral, and expert-led prosthodontic messaging.
-
-### Core Principles
-
-1. **Expertise in the open:** Place clinician, lab capability, and care credentials in clear view rather than hiding them beneath generic marketing.
-2. **Breathing room with purpose:** Use generous negative space, overlapping image planes, and short reading lengths to make an urgent need feel manageable.
-3. **Conversion without pressure:** Pair direct calls to action with informative, confidence-building details and plain-language steps.
-4. **Human precision:** Balance crisp rules and technical details with naturally warm imagery and rounded organic arcs.
-
-### Color Philosophy
-
-The existing aqua is retained as the practice’s visual anchor: fresh, hygienic, and recognisably coastal. A deep inky teal adds seriousness and creates accessible text contrast; warm ivory keeps the experience gentler than a pure-white clinical template. Coral is reserved for the consultation offer and primary action, making immediate care feel visible and responsive rather than loud.
-
-### Layout Paradigm
-
-The page follows a **consultation spine**, moving down a left-aligned, offset editorial column. A tall first-view scene pairs offer copy with a form-like booking card. Subsequent sections alternate between open narrative bands and framed image slabs, with the proof and treatment process floating off the main reading edge. This avoids a repetitive, central card-grid landing-page formula.
-
-### Signature Elements
-
-1. **Aqua orbit strokes:** Fine curved lines that orbit key content and echo a smile arc without literal dental iconography.
-2. **Coral appointment tab:** A deliberately recognisable coral strip that highlights the complimentary consultation across desktop and mobile.
-3. **Lab-note captions:** Compact uppercase labels with a small aqua dot that introduce benefits, process stages, and clinical detail.
-
-### Interaction Philosophy
-
-Interactions should make information feel closer and more approachable: buttons compress subtly on press, navigation links reveal a fine aqua underline, and process cards lift a fraction on hover. Every call to action scrolls to or surfaces the appointment request area, with no dead ends. Touch targets remain at least 44px and focus states are visibly aqua.
-
-### Animation
-
-On initial load, hero text and visual layers arrive in a measured 360–560ms stagger, using opacity and small vertical transforms only. Orbit strokes gently drift on an exceptionally slow loop; all ambient motion is disabled for reduced-motion preferences. Hover and tap feedback stays under 180ms with a crisp custom ease-out.
-
-### Typography System
-
-**DM Sans** carries body copy and interface language: clear, modern, and highly readable. **Cormorant Garamond** provides the display contrast for measured, human headlines; it makes the clinical expertise feel considered rather than corporate. Headings are sentence-case, large, and left-aligned; uppercase labels use DM Sans with measured letter spacing. Inter is not used.
-
-### Brand Essence
-
-**Same-day denture care from Miami Beach’s dedicated prosthodontist, made personal by an on-site lab and clear clinical guidance.**
-
-Personality: **assured, attentive, precise.**
-
-### Brand Voice
-
-The voice is direct, reassuring, and specific. Headlines acknowledge the impact of lost or broken teeth without dramatizing it; calls to action offer a next step rather than issuing a command.
-
-Example line: “A repaired smile can be closer than you think.”
-
-Example line: “Meet with Dr Abrahams and leave with a plan built around you.”
-
-### Wordmark & Logo
-
-Create a small aqua dental arch nested inside a circular coastal-sun form, paired with a carefully spaced “DR ABRAHAMS” wordmark in DM Sans. The icon works independently in the browser tab and header; it should never appear as a tiny, generic tooth.
-
-### Signature Brand Color
-
-**Abrahams Aqua — #59C9CD.**
-
-## Style Decisions
-
-- Desktop navigation remains bright and reassuring, never transparent over variable imagery.
-- Primary hero imagery uses a darkened directional treatment/lab scene so white typography always meets contrast requirements.
-- No invented ratings, testimonials, or patient stories are used. The page may retain the existing published “580+ 5-Star Google Reviews” practice-level claim as a trust signal, but does not create or display new review content.
-- The expert portrait is the official public Dr. Howard Abrahams image sourced from the practice’s website. Profile credentials are presented as concise, factual clinical details, rather than generalized marketing copy.
-- Because the user specifically requested a Google Reviews testimonial section, it features only selected, verbatim excerpts from the practice’s already published review content, with author names and direct Google attribution. The testimonials are treated as a restrained editorial proof area rather than generic review marketing cards.
-- Coral is reserved for the recognisable complimentary-consultation tab and conversion actions. Major clinical proof, imagery, and navigation accents use the Abrahams Aqua system.
-- Google Review cards use a layered aqua sweep and gentle editorial shift on desktop hover. The treatment is intentionally inactive on touch-only screens and is disabled by the existing reduced-motion preference rule.
-- The hero remains a direct, image-led editorial statement. Its complimentary-consultation invitation is expressed through coral actions rather than a white offer card, while contextual CTAs at care, process, reviews, and contact moments give visitors multiple low-friction routes to request care or call.
+- Original Google Tag Manager, Facebook pixel, PatientLoop tracking and Basin vendor scripts are not reused. These integrations require the practice's own access and configuration.
+- Contact forms never submit to the original vendor endpoint. They validate input and clearly report that this preview does not send messages until a new `VITE_CONTACT_FORM_ENDPOINT` is configured.
+- Hidden mobile navigation is made inert for better keyboard behavior. Reduced-motion preferences are respected.
+- A malformed original favicon URL is repaired.
+- A legacy laser-dentistry link is normalized to the preventive-care page, matching the source site's existing redirect.
+- Preview/staging indexing is disabled by default. Production builds provide full static HTML, per-page SEO metadata, structured data, and a unique 58-URL sitemap. Set `VITE_ALLOW_INDEXING=true` only when replacing the original domain.
